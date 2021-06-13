@@ -1,0 +1,226 @@
+/*
+ * EugenBușoiu online presence
+ * #personalBranding #onlinePresence
+ *
+ * @link https://eugenbusoiu.com
+ * @link https://eugen.pro
+ * @link https://eugen.biz
+ * @author Eugen Bușoiu <me@eugen.pro>
+ *
+ * @copyright All rights reserved.
+ */
+
+section {
+
+  // Profile box
+  &.profile {
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+    min-width: 300px;
+    padding: 0 15px;
+    margin: 30px auto;
+
+    z-index: 1;
+
+    // Mobile S: >= 320px and < 374px
+    @media (min-width: 320px) {
+      .grid(11);
+      padding: 25px;
+
+      border-radius: .35rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5), inset 0 2px 5px rgba(255, 255, 255, 1);
+
+      background-color: rgba(255, 255, 255, .9);
+      // box-shadow: 0 1px 2px rgba(0, 0, 0, .25), inset 0 1px 2px rgba(255, 255, 255, .25);
+    }
+
+    // Mobile M: >= 375px and < 424px
+    @media (min-width: 375px) {
+      // .gr10;
+    }
+
+    // Mobile L: < 425px
+    @media (min-width: 425px) {
+      .grid(10);
+    }
+
+    @media (min-width: 525px) {
+      .grid(8);
+    }
+
+    @media (min-width: 610px) {
+      .grid(7);
+    }
+
+    // Tablet: >= 768px and < 991px
+    @media (min-width: @mediaQueryMedium) {
+      .grid(6);
+      margin: 30px auto 120px;
+    }
+
+    @media (min-width: 900px) {
+      .grid(5);
+    }
+
+    // Tablet: >= 992px and < 1021px
+    @media (min-width: @mediaQueryLarge) {
+      .grid(4);
+      position: absolute;
+      top: 40px;
+      left: 40px;
+      margin: 0 auto 120px;
+    }
+
+    // Laptop: >= 1024 and < 1439px
+    @media (min-width: 1024px) {
+      .grid(4);
+    }
+
+    @media (min-width: @mediaQueryExtraLarge) {
+      .grid(4);
+    }
+
+    // Laptop L: >= 1440px and < 1649px
+    @media (min-width: @mediaQueryExtraLarge2x) {
+      .grid(3);
+    }
+
+    @media (min-width: @mediaQueryExtraLarge3x) {
+      .grid(3);
+    }
+
+    // Badge
+    .badge {
+      width: 128px;
+      height: 128px;
+      margin: 0 auto 40px;
+      padding: 15px 0 0;
+
+      // Photo avatar
+      .photo {
+        border-radius: 50%;
+        border: 3px solid #fff;
+        box-shadow: 0 0 35px 2px rgba(0, 0, 0, .3);
+      }
+    }
+
+    // Heading
+    h1 {
+      .grid;
+      word-spacing: -.4rem;
+      text-align: center;
+
+      a, a:hover {
+        color: @textColorHover;
+      }
+    }
+
+    // Paragraphs
+    p {
+    }
+
+    // Summary
+    .summary {
+      font-size: .88rem;
+      display: block;
+      margin: 15px 0 25px;
+      text-align: center;
+
+      p {
+        margin: 1.15rem 0 0;
+
+        &:nth-child(1) {
+          margin: 0;
+        }
+      }
+    }
+
+    // Navigation
+    nav {
+
+      margin: 10px 0 0;
+
+      ul {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+
+        li {
+          margin-left: 1rem;
+
+          &:nth-child(1) {
+            margin: 0;
+          }
+        }
+
+        // Social channels
+        &.social-channels {
+
+          a {
+            font-size: 1.66rem;
+            line-height: 2rem;
+            padding: 10px 14px;
+          }
+        }
+      }
+    }
+  }
+
+  // Modal window
+  &.modal {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, .65);
+
+    overflow-y: auto;
+    z-index: 1;
+
+    // Modal window
+    .modal-window {
+
+      position: absolute;
+      box-shadow: 0 0 5px rgba(0, 0, 0, .75);
+
+      background: #fff;
+
+      .grid(11);
+
+      @media (min-width: 525px) {
+        .grid(7);
+      }
+
+      @media (min-width: 610px) {
+        .grid(7);
+      }
+
+      // Tablet: >= 768px and < 991px
+      @media (min-width: 768px) {
+        .grid(8);
+      }
+
+      @media (min-width: 900px) {
+        .grid(6);
+      }
+
+      // Static modal
+      &.static-modal-window {
+
+        position: relative;
+
+        margin: 30px auto;
+        padding: 20px 30px;
+
+        text-align: left;
+      }
+    }
+  }
+}

@@ -1,0 +1,129 @@
+/*
+ * EugenBușoiu online presence
+ * #personalBranding #onlinePresence
+ *
+ * @link https://eugenbusoiu.com
+ * @link https://eugen.pro
+ * @link https://eugen.biz
+ * @author Eugen Bușoiu <me@eugen.pro>
+ *
+ * @copyright All rights reserved.
+ */
+
+.events-page {
+
+  // Modal page typography
+  .modal-window {
+
+    // Header
+    header {
+      display: flex;
+      flex-flow: row nowrap;
+
+      justify-content: space-between;
+      align-items: center;
+
+      margin: 0 0 20px;
+
+      // Reset close button padding
+      a.btn {
+        padding: 6px;
+      }
+    }
+
+    // Timeline
+    ul.timeline {
+
+      margin: 0 0 30px;
+      padding: 0 5px;
+      list-style: none;
+
+      & > li {
+
+        position: relative;
+        border-left: 2px solid #ccc;
+        padding: 4px 3px 16px 20px;
+
+        &:before {
+
+          content: '';
+
+          width: 10px;
+          height: 10px;
+          display: block;
+          top: 14px;
+          position: absolute;
+          left: -6px;
+          border-radius: 10px;
+          border: 2px solid #ccc;
+          background: white;
+        }
+
+        h4 {
+          display: inline-block;
+
+          @media (min-width: 768px) {
+
+            &:after {
+              content: ', ';
+            }
+          }
+        }
+
+        span {
+          display: block;
+          font-size: .9em;
+
+          @media (min-width: 768px) {
+            display: inline-block;
+          }
+        }
+
+        // Tags
+        ul.tags {
+          display: block;
+          list-style: none;
+          padding: 0;
+          margin: 0;
+
+          li {
+            display: inline-block;
+
+            font-size: .74em;
+            color: #777;
+            padding: 0 8px;
+
+            border: 1px solid #e1e1e1;
+            border-radius: .35em;
+
+            vertical-align: middle;
+
+            margin-right: 6px;
+            margin-bottom: 4px;
+          }
+        }
+
+        // Paragraphs
+        p {
+          padding: 0;
+          margin: 0;
+        }
+      }
+    }
+
+    // Media appearances channels
+    section.media-appearances-channels {
+
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-evenly;
+
+      padding: 30px 0 0;
+
+      img {
+        filter: grayscale(50%);
+        opacity: .7;
+      }
+    }
+  }
+}

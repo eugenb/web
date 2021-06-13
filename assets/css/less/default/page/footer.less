@@ -1,0 +1,90 @@
+/*
+ * EugenBușoiu online presence
+ * #personalBranding #onlinePresence
+ *
+ * @link https://eugenbusoiu.com
+ * @link https://eugen.pro
+ * @link https://eugen.biz
+ * @author Eugen Bușoiu <me@eugen.pro>
+ *
+ * @copyright All rights reserved.
+ */
+
+// Footer
+footer {
+
+  .grid;
+  min-width: 300px;
+
+  text-align: center;
+  margin: 30px 0 0;
+  padding: 10px 0 0;
+
+  background: linear-gradient(to top, rgba(0, 0, 0, .75), rgba(0, 0, 0, 0));
+
+  @media (min-width: 320px) {
+    margin: 20px 0 0;
+    z-index: 0;
+  }
+
+  @media (min-width: @mediaQueryMedium) {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    text-align: left;
+    padding: 10px 0;
+    background: transparent;
+
+    &:before {
+
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+
+      .grid(6);
+
+      content: '';
+      background: linear-gradient(to right, rgba(0, 0, 0, .75), rgba(0, 0, 0, 0));
+      color: #fff;
+
+      opacity: .75;
+      z-index: -2;
+    }
+  }
+
+  ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    list-style: none;
+
+    padding: 0 0 30px;
+    margin: 0 20px;
+
+    @media (min-width: @mediaQueryMedium) {
+      justify-content: flex-start;
+      margin: 0 20px 0 40px;
+      padding: 0;
+    }
+
+    li {
+
+      a {
+        display: inline-block;
+        padding: 10px;
+
+        img {
+          object-fit: cover;
+          filter: brightness(10%) grayscale(10%);
+
+          @media (min-width: 320px) {
+            filter: none;
+          }
+        }
+      }
+    }
+  }
+}
