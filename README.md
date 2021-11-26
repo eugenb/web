@@ -8,8 +8,7 @@
 
 #### [OWASP Iași Chapter](https://owasp.org/www-chapter-iasi/), the local OWASP chapter of Iași, the place to learn about application security
 
-#### [Create Change](https://createchange.ro), a non-profit organization aiming to support creative industries, spurring innovation and
-  accelerating development
+#### [Create Change](https://createchange.ro), a non-profit organization aiming to support creative industries, spurring innovation and accelerating development
 
 ### Projects
 
