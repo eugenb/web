@@ -12,4 +12,4 @@
 
 ### Projects
 
-* [Iași Digital](https://iasi.digital), a data-driven perspective of Iași, integrating multiple open data sources
+[Iași Digital](https://iasi.digital), a data-driven perspective of Iași, integrating multiple open data sources
