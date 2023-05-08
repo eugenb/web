@@ -1,6 +1,6 @@
-:wave: Hey there! I'm **[Eugen](https://eugenbusoiu.com)**, experienced IT professional, with 15+ years of experience in software product development, passionate about technology and building innovative software products with an interest in digital transformation and artificial intelligence.
+:wave: Hey there! I'm **[Eugen](https://eugenbusoiu.com)**, experienced IT professional, with 16+ years of experience in software product development, passionate about technology and building innovative software products with an interest in digital transformation and artificial intelligence.
 
-### I'm involved in
+### I'm involved in several initiatives
 
 **[IAȘI AI](https://iasi.ai)**, the artificial intelligence community of Iași
 
