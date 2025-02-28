@@ -70,6 +70,11 @@ footer {
     }
 
     li {
+      margin-right: .15em;
+
+      &:nth-child(1) {
+        margin: 0;
+      }
 
       a {
         display: inline-block;
@@ -86,6 +91,8 @@ footer {
         }
 
         &:hover {
+          background: rgba(0, 0, 0, .55);
+          border-radius: 25%;
 
           img {
             filter: none;
