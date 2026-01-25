@@ -1,4 +1,4 @@
-:wave: Hey there! I'm **[Eugen](https://eugenbusoiu.com)**, experienced IT professional, with 18+ years of experience in software product development, passionate about technology and building innovative software products with an interest in digital transformation and artificial intelligence.
+:wave: Hey there! I'm **[Eugen](https://eugenbusoiu.com)**, experienced IT professional, with 20+ years of experience in technology, passionate about building innovative software and driving digital transformation.
 
 ### I'm involved in several initiatives
 
