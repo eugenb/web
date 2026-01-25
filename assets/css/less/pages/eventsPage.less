@@ -30,85 +30,95 @@
       }
     }
 
-    // Timeline
-    ul.timeline {
+    // Main
+    main {
+      p.summary {
+        font-size: .9em;
+        margin: 0 auto 1.75em;
+      }
 
-      margin: 0 0 30px;
-      padding: 0 5px;
-      list-style: none;
+      // Timeline
+      ul.timeline {
 
-      & > li {
+        margin: 0 0 30px;
+        padding: 0 5px;
+        list-style: none;
 
-        position: relative;
-        border-left: 2px solid #ccc;
-        padding: 4px 3px 16px 20px;
+        & > li {
 
-        &:before {
+          position: relative;
+          border-left: 2px solid #ccc;
+          padding: 4px 3px 16px 20px;
 
-          content: '';
+          &:before {
 
-          width: 10px;
-          height: 10px;
-          display: block;
-          top: 14px;
-          position: absolute;
-          left: -6px;
-          border-radius: 10px;
-          border: 2px solid #ccc;
-          background: white;
-        }
+            content: '';
 
-        h4 {
-          display: inline-block;
+            width: 10px;
+            height: 10px;
+            display: block;
+            top: 14px;
+            position: absolute;
+            left: -6px;
+            border-radius: 10px;
+            border: 2px solid #ccc;
+            background: white;
+          }
 
-          @media (min-width: 768px) {
+          h4 {
+            display: inline-block;
 
-            &:after {
-              content: ', ';
+            @media (min-width: 768px) {
+
+              &:after {
+                content: ', ';
+              }
             }
           }
-        }
 
-        span {
-          display: block;
-          font-size: .9em;
+          span {
+            display: block;
+            font-size: .9em;
 
-          @media (min-width: 768px) {
-            display: inline-block;
+            @media (min-width: 768px) {
+              display: inline-block;
+            }
           }
-        }
 
-        // Tags
-        ul.tags {
-          display: block;
-          list-style: none;
-          padding: 0;
-          margin: 0;
+          // Tags
+          ul.tags {
+            display: block;
+            list-style: none;
+            padding: 0;
+            margin: 0;
 
-          li {
-            display: inline-block;
+            li {
+              display: inline-block;
 
-            font-size: .74em;
-            color: #777;
-            padding: 0 8px;
+              font-size: .74em;
+              color: #777;
+              padding: 0 8px;
 
-            border: 1px solid #e1e1e1;
-            border-radius: .35em;
+              border: 1px solid #e1e1e1;
+              border-radius: .35em;
 
-            vertical-align: middle;
+              vertical-align: middle;
 
-            margin-right: 6px;
-            margin-bottom: 4px;
+              margin-right: 6px;
+              margin-bottom: 4px;
+            }
           }
-        }
 
-        // Paragraphs
-        p {
-          padding: 0;
-          margin: 0;
+          // Paragraphs
+          p {
+            padding: 0;
+            margin: 0;
+          }
         }
       }
     }
+
+
 
     // Media appearances channels
     section.media-appearances-channels {
