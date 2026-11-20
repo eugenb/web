@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+        xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
         xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
         <loc>https://eugenbusoiu.com/</loc>
-        <lastmod>2026-01-25</lastmod>
-        <priority>1</priority>
+        <lastmod>2026-11-20</lastmod>
     </url>
 
     <url>
         <loc>https://eugenbusoiu.com/events-media-appearances/</loc>
-        <lastmod>2026-01-25</lastmod>
-        <priority>0.6</priority>
+        <lastmod>2026-11-20</lastmod>
     </url>
 
 </urlset>
